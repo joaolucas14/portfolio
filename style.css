@@ -199,6 +199,8 @@ body, html {
   }
   .contact a{
     margin-right: 10px;
+    text-decoration: none;
+    color: var(--fontcolor2);
   }
 
   
