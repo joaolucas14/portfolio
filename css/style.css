@@ -205,4 +205,6 @@ body, html {
     color: var(--fontcolor2);
   }
 
-  
+  .contact img:hover{
+    transform: scale(1.05); 
+  }
