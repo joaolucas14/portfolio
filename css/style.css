@@ -1,4 +1,4 @@
-/* Estilos Globais */
+@import "./tooltip.css";
 :root{
     --bg1: #0a192f;
     --bg2: #112240;
@@ -59,7 +59,7 @@ body, html {
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background: url('img/imagem_perfil.jpg') center / cover no-repeat;
+    background: url('../img/imagem_perfil.jpg') center / cover no-repeat;
 
   }
   /* Seção Home */
@@ -110,20 +110,20 @@ body, html {
     padding-left: 3em;
     font-size: 20px;
   }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
+  .skills{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 20px; 
+    padding-top: 20px;
   }
-  
-  ul li {
-    margin-top: 10px;
-    font-size: 1.2rem;
-  }
-
   .skills img{
     margin-right: 5px;
     width: 4em;
+  }
+  .skills img:hover{
+    transform: scale(1.05); 
+
   }
   
   /* Seção Projetos */
@@ -205,4 +205,6 @@ body, html {
     color: var(--fontcolor2);
   }
 
-  
+  .contact img:hover{
+    transform: scale(1.05); 
+  }
