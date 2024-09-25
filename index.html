@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfólio - João Lucas</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Menu de Navegação -->
@@ -42,11 +42,31 @@
       </p>
       <h2>Minhas Habilidades</h2>
       <div class="skills">
-        <img src="img/001-html-5.png" alt="HTML" />
-        <img src="img/002-css-3.png" alt="CSS" />
-        <img src="img/003-js.png" alt="JavaScript" />
-        <img src="img/004-python.png" alt="Python" />
-        <img src="img/005-django.png" alt="Django" />
+        <img
+          src="img/001-html-5.png"
+          alt="HTML"
+          data-tooltip
+          aria-label="HTML"
+        />
+        <img src="img/002-css-3.png" alt="CSS" data-tooltip aria-label="CSS" />
+        <img
+          src="img/003-js.png"
+          alt="JavaScript"
+          data-tooltip
+          aria-label="JavaScript"
+        />
+        <img
+          src="img/004-python.png"
+          alt="Python"
+          data-tooltip
+          aria-label="Python"
+        />
+        <img
+          src="img/005-django.png"
+          alt="Django"
+          data-tooltip
+          aria-label="Django"
+        />
       </div>
     </section>
 
@@ -92,6 +112,7 @@
       /></a>
     </section>
 
-    <script src="script.js"></script>
+    <script src="js/textoDeBoasVindas.js"></script>
+    <script src="js/tooltip.js"></script>
   </body>
 </html>
