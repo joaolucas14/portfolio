@@ -11,7 +11,7 @@ body, html {
     padding: 0;
     font-family: 'Arial', sans-serif;
     scroll-behavior: smooth;
-    min-width: 500px;
+    min-width: 400px;
   }
   
   section {
@@ -123,6 +123,7 @@ body, html {
 
   .skills img{
     margin-right: 5px;
+    width: 4em;
   }
   
   /* Seção Projetos */
@@ -146,6 +147,7 @@ body, html {
   }
   .project-card {
     width: 300px;
+    min-width: 200px;
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
