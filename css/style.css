@@ -157,6 +157,7 @@ body, html {
     flex: 0 1 calc(33.333% - 20px); 
     box-sizing: border-box;
     margin-bottom: 20px;
+    padding-bottom: 20px;
   }
   .project-card a{
     text-decoration: none;
@@ -179,7 +180,8 @@ body, html {
     color: var(--fontcolor1);
   }
   #project-details{
-    color: var(--fontcolor2);
+    color: var(--fontcolor1);
+    text-align: justify;
   }
   
   .project-description h3 {
@@ -207,4 +209,8 @@ body, html {
 
   .contact img:hover{
     transform: scale(1.05); 
+  }
+
+  .link{
+    color: var(--fontcolor2);
   }
